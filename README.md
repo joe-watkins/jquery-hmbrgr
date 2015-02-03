@@ -26,12 +26,12 @@ Hamburger effect with jQuery Plugin
 
  ```javascript
 	$('.hmbrgr').hmbrgr({
-		width     : 60,
-		height    : 50,
-		speed     : 200,
-		barHeight : 8,
-		barRadius : 0,
-		barColor  : '#ffffff'
+		width     : 60, 		// optional - set hamburger width
+		height    : 50, 		// optional - set hamburger height
+		speed     : 200,		// optional - set animation speed
+		barHeight : 8,			// optional - set bars height
+		barRadius : 0,			// optional - set bars border radius
+		barColor  : '#ffffff'	// optional - set bars color
 	});    
  ```
 
