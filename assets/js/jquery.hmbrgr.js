@@ -15,11 +15,11 @@
     var config = $.extend( {
       width     : 60,
       height    : 50,
-      animation : 'step1',
       speed     : 200,
       barHeight : 8,
       barRadius : 0,
-      barColor  : '#ffffff'
+      barColor  : '#ffffff',
+      animation : 'expand'
     }, settings);
 
     var posTop    = 0,
