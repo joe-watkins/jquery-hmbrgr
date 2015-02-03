@@ -13,18 +13,21 @@ Hamburger effect with jQuery Plugin
 ##### Include plugin's code:
 
  ```html
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="assets/js/jquery.hmbrgr.min.js"></script>
  ```
 
 ##### Call the plugin:
 
- ```html
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+ ```javascript
+	$('.hmbrgr').hmbrgr({
+		width     : 60,
+		height    : 50,
+		speed     : 200,
+		barHeight : 8,
+		barRadius : 0,
+		barColor  : '#ffffff'
+	});    
  ```
-
-
-## Options
-
 
 ## License
 
