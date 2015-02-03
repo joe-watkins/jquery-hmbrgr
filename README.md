@@ -1,6 +1,6 @@
 # Hmbrgr
 
-Hamburger effect with jQuery Plugin
+jQuery Plugin to achieve the "Hamburger effect"
 
 ## Usage
 
