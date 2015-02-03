@@ -6,9 +6,9 @@ Hamburger effect with jQuery Plugin
 
 ##### Include jQuery:
 
-  ```html
+ ```html
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-	```
+ ```
 
 ## Options
 
