@@ -4,6 +4,12 @@ Hamburger effect with jQuery Plugin
 
 ## Usage
 
+##### Create the element in your HTML:
+
+ ```html
+	<a href="#" class="hmbrgr"></a>
+ ```
+
 ##### Include jQuery:
 
  ```html
