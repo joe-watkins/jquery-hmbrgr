@@ -1,6 +1,6 @@
 /*!
  * hmbrgrs.js v0.0.1
- * https://github.com/MorenoDiDomenico/Hmbrgr
+ * https://github.com/MorenoDiDomenico/jquery-hmbrgr
  *
  * Copyright 2015, Moreno Di Domenico
  * Released under the MIT license
