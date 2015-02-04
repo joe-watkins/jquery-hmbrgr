@@ -19,7 +19,8 @@
       barHeight : 8,
       barRadius : 0,
       barColor  : '#ffffff',
-      animation : 'expand'
+      animation : 'expand',
+      label     : 'menu'
     }, settings);
 
     var posTop    = 0,
@@ -32,7 +33,7 @@
         'width'     : config.width,
         'height'    : config.height
       })
-      .html('<span /><span /><span />')
+      .html('<span class="visually-hidden">'+config.label+'</span> <span /><span /><span />')
       .find('span').css({
         'height'              : config.barHeight,
         'border-radius'       : config.barRadius,
