@@ -33,7 +33,7 @@
         'width'     : config.width,
         'height'    : config.height
       })
-      .html('<span class="visually-hidden">'+config.label+'</span> <span /><span /><span />')
+      .html('<span class="visually-hidden">'+config.label+'</span></span> <span /><span /><span />')
       .find('span').css({
         'height'              : config.barHeight,
         'border-radius'       : config.barRadius,
@@ -46,17 +46,17 @@
 
     function hmbrgrSpanReset(el){
       $(el)
-      .find('span').eq(0).css({
+      .find('span').eq(1).css({
         'top' : posTop
       });
 
       $(el)
-      .find('span').eq(1).css({
+      .find('span').eq(2).css({
         'top' : posMiddle
       });
 
       $(el)
-      .find('span').eq(2).css({
+      .find('span').eq(3).css({
         'top' : posBottom
       });
     }
